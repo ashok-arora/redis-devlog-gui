@@ -86,7 +86,7 @@ def delete_item(r, key, item):
 
 
 def main():
-    sg.theme("DarkBrown1")
+    sg.theme("Reddit")
     sg.set_options(font=("Montserrat", 10))
 
     r = redis.Redis(host="localhost", port=6379, db=0, decode_responses=True)
